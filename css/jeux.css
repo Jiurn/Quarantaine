@@ -1,0 +1,126 @@
+.collapsible {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    min-width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 1rem;
+    display: block;
+    margin-right: 2rem;
+}
+
+.collapsible:hover {
+    background-color: #555;
+}
+
+.content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #f1f1f1;
+}
+input[type=text] {
+    max-width: 75%;
+    min-width: 68%;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin: 2rem 2rem;
+}
+input[type=number] {
+    max-width: 50%;
+    min-width: 40%;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin: 2rem 2rem;
+}
+input[type=submit] {
+    max-width: 25%;
+    min-width: 10%;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin: 2rem 2rem;
+}
+p{
+    margin: 0 0 0 2rem;
+    font-size: 2rem;
+}
+#recommencer_calcul_mental{
+    display: none;
+}
+#temps_calcul_mental{
+    margin-left: 1.5rem;
+    padding-bottom: 0;
+}
+#p_nbr_1_2{
+    font-size: 2rem;
+    margin: 2rem 0 0 2rem;
+    padding: 0;
+}
+#clipboard_sarcasme{
+    display: none;
+    float: top;
+    position: absolute;
+    top: 0;
+    margin-left: 2rem;
+    font-size: 1.6rem;
+}
+#resultat_sarcasme{
+    display: inline-block;
+    max-width: 85%;
+}
+@media (max-width: 991px){
+    button.collapsible{
+        font-size: 1.75rem;
+        margin-bottom: 1rem;
+    }
+    button.collapsible.active{
+        margin-bottom: 0;
+    }
+    input[type=text]{
+         font-size: 1.75rem;
+     }
+    #btn_calcul_mental{
+        max-width: 21%;
+        min-width: 20%;
+        margin-right: 2rem;
+        font-size: 1.75rem;
+    }
+    input[type=number]{
+        font-size: 1.75rem;
+        max-width: 38%;
+        min-width: 20%;
+    }
+    #btn_sarcasme{
+        font-size: 1.75rem;
+        margin-right: 0;
+    }
+    p, #p_nbr_1_2{
+        font-size: 2.5rem;
+    }
+    #tentative_calcul_mental, #text_tentative{
+        font-size: 1.5rem;
+    }
+    #recommencer_calcul_mental{
+        max-width: 35%;
+        font-size: 1.75rem;
+    }
+    main{
+        padding-top: 10rem;
+    }
+    #clipboard_sarcasme{
+        font-size: 2.5rem;
+    }
+}

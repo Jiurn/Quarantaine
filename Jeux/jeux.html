@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr-CA" style="margin: 0">
+<head><!--  -->
+    <meta charset="UTF-8">
+    <title>Jeux</title>
+    <link href="../css/nav.css" rel="stylesheet" type="text/css">
+    <link rel="shortcut icon" href="../img/icone.png" type="image/x-icon">
+    <script src="../js_general/responsive_navbar.js" defer></script>
+    <link href="../css/jeux.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="../js_general/animated-collapsibles.js" defer></script>
+    <script src="jeux.js" defer></script>
+</head>
+<body>
+<header>
+    <nav class="nav" style="justify-content: space-around; width: 100%; border-bottom: 2px solid rgb(32, 115, 185); padding-top: 0.2rem">
+        <div class="hamburger">
+            <i style="font-size:6rem;" class="material-icons">menu</i>
+        </div>
+        <ul class="nav-links" style="display: flex; justify-content: space-around; width: 100%">
+            <li style="margin: 0 auto"><a class="nav-link" href="../Activite/formulaire.html">Activités</a></li>
+            <li style="margin: 0 auto"><a class="nav-link" style="margin: 0 1rem" href="../CV/cv.html">C.V.</a></li>
+            <li style="margin: 0 auto"><a class="nav-link active" href="../Jeux/jeux.html">Jeux</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <div style="margin: 1rem 6rem">
+        <button class="collapsible">Sarcasme --> SaRcAsMe</button>
+
+        <div class="content" id="div_content_sarcasme">
+            <input type="text" placeholder="ÉcRiVeZ vOtRe TeXt" id="mettre_en_sacasme" >
+            <input type="submit" onclick="Sarcasme()" id="btn_sarcasme">
+            <div style="position: relative"><p id="resultat_sarcasme"></p><i id="clipboard_sarcasme" style="cursor: pointer" title="Copy to Clipboard" class="material-icons">file_copy</i></div>
+        </div>
+    </div>
+    <div style="margin: 1rem 6rem">
+        <button class="collapsible" id="btn_collapsible_calcul_mental">Exercice de calcul mental</button>
+        <div class="content" id="div_content_calcul_mental">
+            <p id="p_nbr_1_2"> <span id="nbr_1"></span> * <span id="nbr_2"></span></p>
+            <input type="number" id="reponse_calcul_mental">
+            <input type="submit" onclick="Calcul_mental()" id="btn_calcul_mental" value="Soumettre réponse">
+            <span id="tentative_calcul_mental"></span><span id="text_tentative"></span>
+            <div><p style="margin: 0" id="temps_calcul_mental"></p></div>
+            <input type="submit" id="recommencer_calcul_mental" value="Recommencer" onclick="Recommencer_Calcul_mental()">
+        </div>
+    </div>
+
+</main>
+</body>
+</html>

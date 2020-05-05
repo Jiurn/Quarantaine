@@ -1,0 +1,81 @@
+/*
+body {
+    line-height: 2;
+    font-family: "Arial", sans-serif;
+    background: rgb(15, 35, 61);
+}
+h1{
+    color: darkgoldenrod;
+}
+ */
+#citation{
+    width: auto;
+    float: right;
+    margin: 1rem;
+    margin-right: 3rem;
+}
+#titre_du_site{
+    text-align: center;
+    width: 100%;
+    padding-top: 4rem;
+}
+#hr_citation{
+    border-top: .05rem solid #1ebba3;
+}
+blockquote{
+    margin: 2rem;
+    margin-right: 5rem;
+}
+blockquote p{
+    color: #1b203d;
+}
+.bold{
+    font-weight: bold;
+    text-align: left;
+}
+div>img{
+    max-width: 100%;
+    border-radius: 100%;
+}
+.col-lg-2.div_img{
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+    margin: auto 0;
+}
+ul{
+    list-style-image: url("../img/black-arrow.png");
+}
+@media (max-width: 991px){
+    div>img{
+        width: 45%;
+        margin: auto 2rem;
+    }
+    #img_titre_du_site{
+        width: 75%;
+        margin: 2rem 2rem 3rem 2rem;
+    }
+    .flex{display: flex;}
+    #img_comp{order: 1;}
+    #img_gouv{order: 1;}
+    #text_comp{order: 2;}
+    #text_gouv{order: 2;}
+    p, li, i, a, cite, span{
+        font-size: 2rem;
+    }
+    h3.grandir ,h4.grandir ,h5.grandir ,h6.grandir{
+        font-size: 2.5rem;
+    }
+    .footer{
+        font-size: 1.7rem;
+    }
+    p span{
+        font-size: 2.1rem;
+    }
+    h2.grandir{
+        font-size: 3rem;
+    }
+    #titre_du_site{
+        padding-top: 8.5rem;
+    }
+}

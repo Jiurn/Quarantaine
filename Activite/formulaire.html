@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr-CA">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="../img/icone.png" type="image/x-icon">
+    <title>Choix d'activités</title>
+    <link href="../css/activite.css" rel="stylesheet" type="text/css">
+    <link href="../css/nav.css" rel="stylesheet" type="text/css">
+    <link href="../css/form.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="../js_general/responsive_navbar.js" defer></script>
+    <script src="checkbox.js" defer></script>
+    <link href="https://fonts.googleapis.com/css?family=Unna&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body style="height: 100vh; width: 100%;">
+<header>
+    <nav class="nav" style="justify-content: space-around; width: 100%; padding-top: 0.2rem; padding-bottom: 0.2rem">
+        <div class="hamburger" style="max-width:6%; min-width: 6%; padding-right: 3rem;">
+            <i style="font-size: 6rem" class="material-icons">menu</i>
+        </div>
+        <ul class="nav-links" style="display: flex; justify-content: space-around; width: 100%">
+            <li style="margin: 0 auto"><a class="nav-link active" href="formulaire.html">Activités</a></li>
+            <li style="margin: 0 auto"><a class="nav-link" style="margin: 0 1rem" href="../CV/cv.html">C.V.</a></li>
+            <li id="i_apropos" style="margin: 0 auto"><a class="nav-link" href="../Jeux/jeux.html">Jeux</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <h1>Proposition d'activités</h1>
+    <form name="formulaire" id="formulaire"> <!-- Faire un bon formulaire: https://www.smashingmagazine.com/2018/03/ux-contact-forms-essentials-conversions/ -->
+
+        <!-- Sélection du secteur -->
+        <fieldset name="secteur" style="cursor: auto" id="fieldset_secteur" class="required">
+            <legend>Choisissez le(s) secteur(s):</legend>
+            <label><input type="checkbox" name="secteur_g" id="Gatineau" value="Gatineau" required><span style="background: none">Gatineau</span></label>
+            <label><input type="checkbox" name="secteur_o" id="Ottawa" value="Ottawa" required><span style="background: none">Ottawa</span></label>
+            <label><input type="checkbox" name="secteur_h" id="Hull" value="Hull" required><span style="background: none">Hull</span></label>
+            <label><input type="checkbox" name="secteur_a" id="Aylmer" value="Aylmer" required><span style="background: none">Aylmer</span></label>
+           <!-- <label><input type="checkbox" name="secteur_m" id="Montreal" value="Montreal" required><span style="background: none">Montreal</span></label>  -->
+        </fieldset>
+
+        <!-- Sélection de l'âge
+        <fieldset name="selection_age" style="cursor: auto">
+            <legend>Quel âge avez-vous?</legend>
+            <input type="radio" name="age" id="age" value="moins18" checked>
+            <label for="age">18 ans et moins</label>
+            <label><input type="radio" name="age" value="19">19 ans</label>
+            <label><input type="radio" name="age" value="19plus">19 ans et plus</label>
+        </fieldset>-->
+
+        <!-- Sélection du genre d'activité -->
+        <fieldset name="genre_activite" style="cursor: auto; padding: 25px 64px" class="required">
+            <legend>Choisissez avec qui vous y aller:</legend>
+            <label><input type="radio" name="genre_activite" value="Seul" required><span style="background: none">Activités à faire seul</span></label>
+            <label><input type="radio" name="genre_activite" value="Famille"><span style="background: none">Activités de famille</span></label>
+            <label><input type="radio" name="genre_activite" value="Couple"><span style="background: none">Activités de couple</span></label>
+            <label><input type="radio" name="genre_activite" value="Amis"><span style="background: none">Activités avec des amis</span></label>
+        </fieldset>
+
+        <!-- Sélection de la catégorie -->
+        <fieldset name="categorie" style="cursor: auto" class="required">
+            <legend>Choisissez le(s) type(s) d'activité(s):</legend>
+            <label><input type="checkbox" name="categorie_r" id="Resto" value="Resto" required><span style="background: none">Restaurant</span></label>
+            <label><input type="checkbox" name="categorie_ff" id="Fast-food" value="Fast-food" required><span style="background: none">Fast-food</span></label>
+            <label><input type="checkbox" name="categorie_b" id="Bar" value="Bar" required><span style="background: none">Bar</span></label>
+            <label><input type="checkbox" name="categorie_as" id="Activités_sportives" value="Activités_sportives" required><span style="background: none">Activités sportives</span></label>
+            <label><input type="checkbox" name="categorie_m" id="Magasinage" value="Magasinage" required><span style="background: none">Magasinage</span></label>
+            <label><input type="checkbox" name="categorie_c" id="Chill" value="Chill" required><span style="background: none">Chill</span></label>
+
+        </fieldset>
+
+        <fieldset name="saison" style="cursor: auto; padding: 25px 64px" class="required">
+            <legend>Choisissez la saison: </legend>
+            <label> <input type="radio" name="saison" value="Été" required><span style="background: none">Été</span></label>
+            <label> <input type="radio" name="saison" value="Automne"><span style="background: none">Automne</span></label>
+            <label> <input type="radio" name="saison" value="Hiver"><span style="background: none">Hiver</span></label>
+            <label> <input type="radio" name="saison" value="Printemps"><span style="background: none">Printemps</span></label>
+        </fieldset>
+        <div id="div_submit">
+            <input type="submit" value="Continuer" class="btn" id="submit" formaction="activite.html" onclick="Checkbox()">
+        </div>
+    </form>
+</main>
+<footer>
+    <p style="float: right; font-size: 1rem; color: gray; margin-right: 3rem"> Merci à EphraÏm Assi, Humberto <a href="../site_fete_a_luis/fete_a_luis.html" style="color: gray; text-decoration: none; cursor: auto">Luis</a>
+        Campos et Antony Lajoie Beaudroin pour la collaboration</p>
+</footer>
+</body>

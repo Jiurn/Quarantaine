@@ -1,0 +1,115 @@
+/* Menu */
+
+nav ul {
+    list-style-type: none;
+}
+
+nav a {
+    text-decoration: none;
+    display: inline-block;
+    color : rgb(111, 120, 131);
+    padding-right: 1em;
+    padding-left: 1em;
+    font-family: Unna,"Times New Roman", sans-serif;
+    font-size: x-large;
+}
+
+nav a:hover{
+    color : rgb(69, 194, 218);
+    font-weight: bold;
+}
+
+nav ul {
+    padding : 0;
+    margin : 0;
+}
+
+nav ul > li{
+    display: inline-block;
+}
+
+/* Bordure en bas*/
+nav > ul {
+    border-bottom: 2px solid rgb(32, 115, 185);
+}
+
+/* Arrière plan*/
+nav {
+    background-color: rgb(21, 47, 100);
+}
+footer{
+    background-color: rgb(21, 47, 100);
+}
+header nav a {
+    justify-content: space-around;
+}
+.active{
+    color : rgb(69, 194, 218);
+    font-weight: bold;
+}
+.nav-link{
+    display: flex;
+}.nav-links li a{
+    display: flex;
+ }
+ .hamburger{
+     display: none;
+ }
+ @media screen and (max-width: 992px){
+     .line{
+         width: 30px;
+         height: 3px;
+         background: white;
+         margin: 5px;
+     }
+     header{
+         background: white;
+     }
+     nav{
+         position: relative;
+     }
+     .hamburger{
+         display: block;
+         color: white;
+         margin: 1rem 1rem 1rem auto;
+         cursor: pointer;
+         z-index: 4;
+
+     }
+     .hamburger i{
+         display: block;
+         font-size: 2rem;
+     }
+
+     .nav-links{
+         z-index: 3;
+         position: fixed;
+         background: #1b203d;
+         height: 100vh;
+         width: 102%;
+         flex-direction: column;
+         justify-content: space-around;
+         transform: scale(0);
+         -webkit-transform: scale(0);
+     }
+
+     .nav-links.open{
+         transform: skew(0);
+         -webkit-transform: skew(0);
+         pointer-events: all;
+         background: rgb(21, 47, 100);
+     }
+     .nav-link{
+         font-size: 7rem;
+     }
+     #i_apropos{
+         padding-bottom: 11rem;
+     }
+     #nav_activite{
+         padding: 0.1rem;
+     }
+     header nav{
+         z-index: 3;
+         position: fixed;
+     }
+ }

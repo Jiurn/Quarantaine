@@ -1,0 +1,107 @@
+#bf
+{
+	color: red;
+	font-size: 6em;
+	
+	text-align: center;
+	margin: 0 0 0 0;
+	margin-bottom: 00%;
+	position: relative;
+	top: 65px;
+	width: 100%;
+}
+
+
+h2
+{
+	font-size: 4em;
+	color: white;
+	text-align: center;
+	margin-top: 15%;
+}
+ 
+#montage
+{
+	text-align: center;
+}
+
+#image-coeur-droite{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	float: right;
+	width: 13%;
+}
+
+#feu_artifice_droite{
+	position: absolute;
+	top: 15px;
+	right: -10px;
+	float: right;
+	width: 13%;
+	z-index: -1;
+}
+
+#image-coeur-gauche{
+	position: absolute;
+	float: left;
+	width: 13%;
+}
+
+#feu_artifice_gauche{
+	position: absolute;
+	float: left;
+	top: 15px;
+	left: 20px;
+	width: 13%;
+	z-index: -1;
+}
+
+body {
+	background: url("moi+luis.jpg") scroll repeat; 
+	background-size: 33.33% 100%;
+}
+
+#kiss_droite{
+	float: right;
+	position: relative;
+	top: 100px;
+}
+#kiss_gauche{
+	float: left;
+	position: relative;
+	top: 100px;
+}
+
+
+@media all and (max-device-width: 900px){
+	#kiss_droite{
+		display: none;
+	}
+
+	#kiss_gauche{
+		display: none
+	}
+}
+/*
+@media all and (min-width: 1100px)
+{
+	body {
+		background: url("coeur.png") top left scroll no-repeat, url("coeur.png") top right scroll no-repeat, url("feu_artifice.gif") center left scroll no-repeat, 
+		url("feu_artifice.gif") center right scroll no-repeat, url("kiss.gif") bottom left scroll no-repeat, url("kiss.gif") bottom right scroll no-repeat, url("moi+luis.jpg") fixed repeat; 
+	background-size: 15% 30%, 15% 30%, 15% 30%, 15% 30%, 15% 30%, 15% 30%, 33.33% 100%;
+	color: white;
+	}
+}
+
+@media all and (max-width: 1100px)
+{
+	body {
+		background: url("coeur.png") top left scroll no-repeat, url("coeur.png") top right scroll no-repeat, url("feu_artifice.gif") 
+		center left scroll no-repeat, url("feu_artifice.gif") center right scroll no-repeat, url("moi+luis.jpg") fixed repeat; 
+	background-size: 15% 30%, 15% 30%, 15% 30%, 15% 30%, 33.33% 100%;
+	color: white;
+	}
+}
+
+*/ 

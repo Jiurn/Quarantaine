@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr-CA">
+<head>
+    <meta charset="UTF-8">
+    <title>Activité</title>
+    <link rel="shortcut icon" href="../img/icone.png" type="image/x-icon">
+    <link href="../css/activite.css" rel="stylesheet" type="text/css">
+    <link href="../css/nav.css" rel="stylesheet" type="text/css">
+    <script src="../js_general/responsive_navbar.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Unna&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="choix_activites.js" defer></script>
+    <script src="btn_activite.js" defer></script>
+</head>
+<body style="margin: 0">
+    <header>
+        <nav id="nav_activite" class="nav" style="justify-content: space-around; width: 100%">
+            <div class="hamburger" style="max-width:6%; min-width: 6%; padding-right: 3rem">
+                <i style="font-size: 6rem;" class="material-icons">menu</i>
+            </div>
+            <ul class="nav-links" style="display: flex; justify-content: space-around; width: 100%">
+                <li style="margin: 0 auto"><a class="nav-link" href="formulaire.html">Activités</a></li>
+                <li style="margin: 0 auto"><a class="nav-link" style="margin: 0 1rem" href="../CV/cv.html">C.V.</a></li>
+                <li id="i_apropos" style="margin: 0 auto"><a class="nav-link" href="../Jeux/jeux.html">Jeux</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="activite">
+            <article>Les activités apparaissent ici</article>
+        </section>
+        <div id="div_buttons">
+            <button id="btn_prev">&laquo; Previous</button>
+
+            <button id="btn_next">Next &raquo;</button>
+        </div>
+
+        <p id="p_pages"><span id="pageCourante">1</span>/<span id="page"></span></p>
+
+        <a href="formulaire.html" id="retour_au_formulaire">Retour au formulaire</a>
+    </main>
+</body>
+</html>

@@ -1,0 +1,452 @@
+[
+  {
+    "id": "La Station",
+    "Secteur": "Hull",
+    "Saison": ["Été", "Hiver", "Printemps", "Automne"],
+    "Categorie": ["Resto"],
+    "Type": [ "Famille", "Amis", "Couple" ],
+    "Majeurlegalement": ["Majeur", "Mineur"],
+    "photo": "https://lastation.ca/wp-content/uploads/2019/08/resto-1.jpg"
+  },
+  {
+    "id": "Pacini",
+    "Secteur": "Hull",
+    "Saison": ["Été", "Hiver", "Printemps", "Automne"],
+    "Categorie": ["Resto"],
+    "Type": [ "Famille", "Amis", "Seul","Couple" ],
+    "Majeurlegalement": ["Majeur", "Mineur"],
+    "photo" : "https://pacini.com/wp-content/uploads/2019/05/gatineau-int-5-1000x684.jpg"
+  },
+  {
+    "id": "Batôn Rouge",
+    "Secteur": "Hull",
+    "Saison": ["Été", "Hiver", "Printemps", "Automne"],
+    "Categorie": ["Resto"],
+    "Type": [ "Famille", "Amis", "Couple" ],
+    "Majeurlegalement": ["Majeur", "Mineur"],
+    "photo" : "https://b.zmtcdn.com/data/pictures/0/16663760/7dd8c9d1bfae44238582b30914b268b1.jpg"
+  },
+  {
+    "id": "Mario's",
+    "Secteur": "Hull",
+    "Saison": ["Été", "Hiver", "Printemps", "Automne"],
+    "Categorie": ["Resto"],
+    "Type": [ "Famille", "Amis", "Couple" ],
+    "Majeurlegalement": ["Majeur", "Mineur"],
+    "photo" : "https://media-cdn.tripadvisor.com/media/photo-s/16/db/a6/50/east-side-mario-s-in.jpg"
+  },
+  {
+    "id": "AylmerBBQ",
+    "Secteur": "Aylmer",
+    "Saison": ["Été", "Hiver", "Printemps", "Automne"],
+    "Categorie": ["Resto"],
+    "Type": [ "Famille", "Amis", "Seul", "Couple" ],
+    "Majeurlegalement": ["Majeur", "Mineur"],
+    "photo" : "https://media-cdn.tripadvisor.com/media/photo-s/17/5b/d7/80/parking-lot-out-front.jpg"
+  },
+  {
+    "id": "Portugalos",
+    "Secteur": "Gatineau",
+    "Saison": ["Été", "Hiver", "Printemps", "Automne"],
+    "Categorie": ["Resto"],
+    "Type": [ "Famille", "Amis", "Couple" ],
+    "Majeurlegalement": ["Majeur", "Mineur"],
+    "photo" : "https://b.zmtcdn.com/data/pictures/0/17840860/e03de830f5796aad5e59071b668d1010.jpg"
+  },
+  {
+    "id": "Warehouse",
+    "Secteur": "Ottawa",
+    "Saison": ["Été", "Hiver", "Printemps", "Automne"],
+    "Categorie": ["Resto"],
+    "Type": [ "Famille", "Amis", "Couple" ],
+    "Majeurlegalement": ["Majeur"],
+    "photo": "https://scontent.fymq3-1.fna.fbcdn.net/v/t1.0-9/13900132_312713669071022_6471850543557532298_n.jpg?_nc_cat=101&_nc_sid=19026a&_nc_ohc=L5XFvVCeu3gAX_-5FVg&_nc_ht=scontent.fymq3-1.fna&oh=b0fd74dfcd0e4963fa7b3fe395c98a80&oe=5EABCD3D"
+  },
+  {
+    "id": "Centre sportif",
+    "Secteur": "Gatineau",
+    "Saison": ["Été", "Hiver", "Printemps", "Automne"],
+    "Categorie": ["Activités_sportives"],
+    "Type": [ "Famille", "Amis", "Seul", "Couple" ],
+    "Majeurlegalement": ["Majeur", "Mineur"],
+    "photo" : "https://www.physiooutaouais.ca/wp-content/uploads/2018/10/centresportif.jpg"
+  },
+  {
+    "id": "Saint-Hubert",
+    "Secteur": "Gatineau",
+    "Saison": ["Été", "Hiver", "Printemps", "Automne"],
+    "Categorie": ["Resto"],
+    "Type": [ "Famille", "Amis", "Couple", "Seul" ],
+    "Majeurlegalement": ["Majeur", "Mineur"],
+    "photo" : "https://b.zmtcdn.com/data/pictures/4/16664124/afb42e2093522dadf0a82336327e8e65.jpg"
+  },
+  {
+    "id": "Bowling",
+    "Secteur": "Aylmer",
+    "Saison": ["Été", "Hiver", "Printemps", "Automne"],
+    "Categorie": ["Activités_sportives", "Chill"],
+    "Type": [ "Famille", "Amis", "Couple" ],
+    "Majeurlegalement": ["Majeur", "Mineur"],
+    "photo" : "https://www.galaxieaylmer.com/assets/images/5quillesnew2000-2000x1333.jpg"
+  },
+  {
+    "id": "Casino",
+    "Secteur": "Hull",
+    "Saison": ["Été", "Hiver", "Printemps", "Automne"],
+    "Categorie": ["Chill", "Bar"],
+    "Type": [ "Famille", "Amis", "Couple", "Seul" ],
+    "Majeurlegalement": ["Majeur"],
+    "photo" : "https://casinos.lotoquebec.com/.imaging/mte/casinos-theme/retinaLrg-1920w/website/casinos/lacleamy/accueil/main/01/image/LLE_1920x1080.jpg"
+  },
+  {
+    "id": "Club Pigale",
+    "Secteur": "Gatineau",
+    "Saison": ["Été", "Hiver", "Printemps", "Automne"],
+    "Categorie": ["Chill", "Bar"],
+    "Type": ["Amis", "Seul" ],
+    "Majeurlegalement": ["Majeur"],
+    "photo" : "https://s3-media0.fl.yelpcdn.com/bphoto/0-bd82T5t4ocpXRGc0pNfQ/l.jpg"
+  },
+  {
+    "id": "Bibliothèque Aylmer",
+    "Secteur": "Aylmer",
+    "Saison": ["Été", "Hiver", "Printemps", "Automne"],
+    "Categorie": ["Chill"],
+    "Type": [ "Famille", "Amis", "Couple", "Seul" ],
+    "Majeurlegalement": ["Majeur", "Mineur"],
+    "photo" : "//live.staticflickr.com/3323/3549545974_e0dd119516_c.jpg"
+  },
+  {
+    "id": "Mardi-gras",
+    "Secteur": "Hull",
+    "Saison": ["Été", "Hiver", "Printemps", "Automne"],
+    "Categorie": ["Chill","Bar"],
+    "Type": ["Amis", "Couple"],
+    "Majeurlegalement": ["Majeur"],
+    "photo" : "https://b.zmtcdn.com/data/pictures/8/18149568/d4057b6ff4015b435fa340a94895c8ca.jpg"
+  },
+  {
+    "id": "Rideau",
+    "Secteur": "Ottawa",
+    "Saison": ["Été", "Hiver", "Printemps", "Automne"],
+    "Categorie": ["Chill", "Magasinage"],
+    "Type": [ "Famille", "Amis", "Couple", "Seul" ],
+    "Majeurlegalement": ["Majeur", "Mineur"],
+    "photo" : "https://i.pinimg.com/originals/7b/ce/6e/7bce6e2d8cac4ae009171ca765561ced.jpg"
+  },
+  {
+    "id": "Starcité",
+    "Secteur": "Hull",
+    "Saison": ["Été", "Hiver", "Printemps", "Automne"],
+    "Categorie": ["Chill"],
+    "Type": [ "Famille", "Amis", "Couple", "Seul" ],
+    "Majeurlegalement": ["Majeur", "Mineur"],
+    "photo" : "https://lh3.googleusercontent.com/p/AF1QipNvt_R2VmQZsn1-fuB8-tYXS6hkCUBPAhuSAXqG=w660-h440-c"
+  },
+  {
+    "id": "Marina",
+    "Secteur": "Aylmer",
+    "Saison": ["Été", "Hiver", "Printemps", "Automne"],
+    "Categorie": ["Chill"],
+    "Type": [ "Famille", "Amis", "Couple", "Seul" ],
+    "Majeurlegalement": ["Majeur", "Mineur"],
+    "photo" : "https://www.iheartradio.ca/image/policy:1.4238267:1548370776/Plage-Aylmer-Bell.JPG?f=default&$p$f=9f41f76"
+  },
+  {
+    "id": "La Cigale",
+    "Secteur": "Gatineau",
+    "Saison": ["Été", "Hiver", "Printemps", "Automne"],
+    "Categorie": ["Chill"],
+    "Type": [ "Famille", "Amis", "Couple", "Seul" ],
+    "Majeurlegalement": ["Majeur", "Mineur"],
+    "photo" : "https://2.bp.blogspot.com/-uVGE9nk8sJQ/T-s7WfcHx_I/AAAAAAAAAR4/W3NtzOpzmJo/s1600/Cigale1.JPG"
+  },
+  {
+    "id": "Altitude Gym",
+    "Secteur": "Hull",
+    "Saison": ["Été", "Hiver", "Printemps", "Automne"],
+    "Categorie": ["Chill", "Activités_sportives"],
+    "Type": [ "Famille", "Amis", "Couple" ],
+    "Majeurlegalement": ["Majeur", "Mineur"],
+    "photo" : "https://www.quebecoriginal.com/fiche/images/800x600/19b4a296-c9ba-49bb-a1af-32ff8ca97067/altitude-gym-section-de-lannexe-45-pieds.jpg"
+  },
+  {
+    "id": "Gladstone",
+    "Secteur": "Ottawa",
+    "Saison": ["Été", "Hiver", "Printemps", "Automne"],
+    "Categorie": ["Chill"],
+    "Type": ["Amis", "Couple" ],
+    "Majeurlegalement": ["Majeur", "Mineur"],
+    "photo" : "https://chichamaps.s3.amazonaws.com/uploads/gladstone-lounge-ottawa3.jpg"
+  },
+  {
+    "id": "Canal Rideau",
+    "Secteur": "Ottawa",
+    "Saison": ["Hiver"],
+    "Categorie": ["Chill"],
+    "Type": [ "Famille", "Amis", "Couple", "Seul" ],
+    "Majeurlegalement": ["Majeur", "Mineur"],
+    "photo" : "https://www.ottawatourism.ca/wp-content/uploads/2015/01/985x554-rideau-canal-skateway-skating-photographer-lauren-bath.jpg"
+  },
+  {
+    "id": "Village des valeurs",
+    "Secteur": "Gatineau",
+    "Saison": ["Été", "Hiver", "Printemps", "Automne"],
+    "Categorie": ["Magasinage"],
+    "Type": [ "Famille", "Amis", "Couple", "Seul" ],
+    "Majeurlegalement": ["Majeur", "Mineur"],
+    "photo" : "https://img.src.ca/2015/10/30/1250x703/151030_q55o7_village-des-valeurs_sn1250.jpg"
+  },
+  {
+    "id": "Minotaure",
+    "Secteur": "Hull",
+    "Saison": ["Été", "Hiver", "Printemps", "Automne"],
+    "Categorie": ["Bar"],
+    "Type": [ "Amis", "Couple" ],
+    "Majeurlegalement": ["Majeur"],
+    "photo" : "https://media-cdn.tripadvisor.com/media/photo-p/18/88/6c/08/ta-img-20190728-021919.jpg"
+  },
+  {
+    "id": " Club Aléa",
+    "Secteur": "Hull",
+    "Saison": ["Été", "Hiver", "Printemps", "Automne"],
+    "Categorie": ["Bar"],
+    "Type": ["Amis", "Couple"],
+    "Majeurlegalement": ["Majeur"],
+    "photo" : "https://media-cdn.tripadvisor.com/media/photo-m/1280/17/4c/e3/37/club-alea.jpg"
+  },
+  {
+    "id": "Sterling",
+    "Secteur": "Gatineau",
+    "Saison": ["Été", "Hiver", "Printemps", "Automne"],
+    "Categorie": ["Resto"],
+    "Type": [ "Famille", "Amis", "Couple" ],
+    "Majeurlegalement": ["Majeur", "Mineur"],
+    "photo" : "https://media-cdn.tripadvisor.com/media/photo-s/04/0c/cd/f7/sterling.jpg"
+  },
+  {
+    "id": "Club Le Forum",
+    "Secteur": "Gatineau",
+    "Saison": ["Été", "Hiver", "Printemps", "Automne"],
+    "Categorie": ["Bar"],
+    "Type": ["Amis", "Couple" ],
+    "Majeurlegalement": ["Majeur"],
+    "photo" : "https://leforum.ca/wp-content/uploads/2018/05/resto-bar-a-gatineau-Le-Forum-Facade.jpg"
+  },
+  {
+    "id": "British",
+    "Secteur": "Aylmer",
+    "Saison": ["Été", "Hiver", "Printemps", "Automne"],
+    "Categorie": ["Resto", "Bar"],
+    "Type": [ "Famille", "Amis", "Couple" ],
+    "Majeurlegalement": ["Majeur"],
+    "photo" : "https://media-cdn.tripadvisor.com/media/photo-s/0e/4e/47/7f/the-british-public-house.jpg"
+  },
+  {
+    "id": "Roula's",
+    "Secteur": "Gatineau",
+    "Saison": ["Été", "Hiver", "Printemps", "Automne"],
+    "Categorie": ["Resto"],
+    "Type": [ "Famille", "Amis", "Couple" ],
+    "Majeurlegalement": ["Majeur", "Mineur"],
+    "photo" : "https://cdn.usarestaurants.info/assets/uploads/cf722b3c3a3dd5407dda7673d4ef1403_-canada-quebec-communaute-urbaine-de-loutaouais-gatineau-roulas-819-246-5252htm.jpg"
+  },
+  {
+    "id": "Chelsea's Pub",
+    "Secteur": "Gatineau",
+    "Saison": ["Été", "Hiver", "Printemps", "Automne"],
+    "Categorie": ["Resto", "Bar"],
+    "Type": [ "Famille", "Amis", "Couple" ],
+    "Majeurlegalement": ["Majeur", "Mineur"],
+    "photo" : "https://www.chelseapub.ca/public/images/gallery/d499a708815b385dd716382931b0e531.jpg"
+  },
+  {
+    "id": "Le Foubrac",
+    "Secteur": "Hull",
+    "Saison": ["Été", "Hiver", "Printemps", "Automne"],
+    "Categorie": ["Resto"],
+    "Type": [ "Famille", "Amis", "Couple" ],
+    "Majeurlegalement": ["Majeur", "Mineur"],
+    "photo" : "https://media-cdn.tripadvisor.com/media/photo-s/08/10/6c/a1/le-foubrac.jpg"
+  },
+  {
+    "id": "Bistro L'Autre Oeil",
+    "Secteur": "Aylmer",
+    "Saison": ["Été", "Hiver", "Printemps", "Automne"],
+    "Categorie": ["Bar"],
+    "Type": [ "Famille", "Amis", "Couple" ],
+    "Majeurlegalement": ["Majeur"],
+    "photo" : "https://live.staticflickr.com/8088/8539722295_f4aec4ce68_b.jpg"
+  },
+  {
+    "id": "Terminus",
+    "Secteur": "Hull",
+    "Saison": ["Été", "Hiver", "Printemps", "Automne"],
+    "Categorie": ["Bar"],
+    "Type": [ "Famille", "Amis", "Couple" ],
+    "Majeurlegalement": ["Majeur"],
+    "photo" : "https://fastly.4sqi.net/img/general/600x600/11728196_3rSywtyJV9n6U3YX-wYnWQ1UV2FhU6ic_10jnLkKLtI.jpg"
+  },
+  {
+    "id": "La Belle et la Boeuf",
+    "Secteur": "Gatineau",
+    "Saison": ["Été", "Hiver", "Printemps", "Automne"],
+    "Categorie": ["Resto"],
+    "Type": [ "Famille", "Amis", "Couple" ],
+    "Majeurlegalement": ["Majeur", "Mineur"],
+    "photo" : "https://assets.website-files.com/5ba734ef9ad787bf7c1ed95c/5cc082d00a5c75685fba97f9_SYMCO_Construction_Belle_Boeuf-Thumbnail.jpg"
+  },
+  {
+    "id": "Shaker",
+    "Secteur": "Gatineau",
+    "Saison": ["Été", "Hiver", "Printemps", "Automne"],
+    "Categorie": ["Resto"],
+    "Type": [ "Famille", "Amis", "Couple" ],
+    "Majeurlegalement": ["Majeur", "Mineur"],
+    "photo" : "https://www.quebecoriginal.com/fiche/images/master/31fd125e-134e-4492-bb16-a49386b91dc8/shaker-cuisine-mixologie-gatineau-mixologie.jpg"
+  },
+  {
+    "id": "Les Promenades",
+    "Secteur": "Gatineau",
+    "Saison": ["Été", "Hiver", "Printemps", "Automne"],
+    "Categorie": ["Chill", "Magasinage"],
+    "Type": [ "Famille", "Amis", "Seul", "Couple" ],
+    "Majeurlegalement": ["Majeur", "Mineur"],
+    "photo" : "https://p.sharinpix.com/1/fe05301/app.sharinpix.com%2Fimage_external_urls%2F1ca1f950-5e1f-4b66-8742-147fbce61dc8/1ca1f950-5e1f-4b66-8742-147fbce61dc8.jpg"
+  },
+  {
+    "id": "Corazon de maiz",
+    "Secteur": "Ottawa",
+    "Saison": ["Été", "Hiver", "Printemps", "Automne"],
+    "Categorie": ["Resto"],
+    "Type": [ "Famille", "Amis", "Seul", "Couple" ],
+    "Majeurlegalement": ["Majeur", "Mineur"],
+    "photo" : "https://s3-media0.fl.yelpcdn.com/bphoto/OrW350td6QKj3RHLMYN1Bg/l.jpg"
+  },
+  {
+    "id": "Piscine Municipale",
+    "Secteur": "Aylmer",
+    "Saison": ["Été", "Hiver", "Printemps", "Automne"],
+    "Categorie": ["Activités_sportives"],
+    "Type": [ "Famille", "Amis", "Seul", "Couple" ],
+    "Majeurlegalement": ["Majeur", "Mineur"],
+    "photo" : "https://s3stark.rncm.ca/craft2/nanobox/anselGenerated/centre-paul-pelletier-10356-1554920992.jpg?mtime=20190410142956"
+  },
+  {
+    "id": "Cage aux sports",
+    "Secteur": "Hull",
+    "Saison": ["Été", "Hiver", "Printemps", "Automne"],
+    "Categorie": ["Bar", "Resto"],
+    "Type": [ "Famille", "Amis", "Couple" ],
+    "Majeurlegalement": ["Majeur", "Mineur"],
+    "photo" : "https://www.cage.ca/site/Sportifs/files/ss/ve170508-0142-jpg-c5g6.jpg"
+  },
+  {
+    "id": "Dairy Queen",
+    "Secteur": "Aylmer",
+    "Saison": ["Été", "Printemps", "Automne"],
+    "Categorie": ["Chill", "Fast-food"],
+    "Type": [ "Famille", "Amis", "Seul", "Couple" ],
+    "Majeurlegalement": ["Majeur", "Mineur"],
+    "photo" : "https://b.zmtcdn.com/data/pictures/7/16665437/c35337267a6cf35e613dccd02575ca86.jpg"
+  },
+  {
+    "id": "Galeries Aylmer",
+    "Secteur": "Aylmer",
+    "Saison": ["Été", "Hiver", "Printemps", "Automne"],
+    "Categorie": ["Chill", "Magasinage", "Fast-food"],
+    "Type": [ "Famille", "Amis", "Seul", "Couple" ],
+    "Majeurlegalement": ["Majeur", "Mineur"],
+    "photo" : "https://images1.loopnet.com/i2/zDIlNKvgBIgIQsb65jR9FFKkvPD71yF3vivGeoNH-mM/110/image.jpg"
+  },
+  {
+    "id": "Galeries de Hull",
+    "Secteur": "Hull",
+    "Saison": ["Été", "Hiver", "Printemps", "Automne"],
+    "Categorie": ["Chill", "Magasinage", "Fast-food"],
+    "Type": [ "Famille", "Amis", "Seul", "Couple" ],
+    "Majeurlegalement": ["Majeur", "Mineur"],
+    "photo" : "https://www.iheartradio.ca/image/policy:1.9063649:1554891794/Galeries-de-Hull.png?f=default&$p$f=ca760bc"
+  },
+  {
+    "id": "La Buena",
+    "Secteur": "Gatineau",
+    "Saison": ["Été", "Hiver", "Printemps", "Automne"],
+    "Categorie": ["Resto"],
+    "Type": [ "Famille", "Amis", "Couple" ],
+    "Majeurlegalement": ["Majeur", "Mineur"],
+    "photo" : "https://scontent.fymq3-1.fna.fbcdn.net/v/t1.0-0/p180x540/62528421_467647640501434_1995103169025146880_o.jpg?_nc_cat=104&_nc_sid=e3f864&_nc_ohc=NIZS7yqIuPUAX8ZAzI7&_nc_ht=scontent.fymq3-1.fna&_nc_tp=6&oh=76f541572b636e6bc72a304b53ecaa69&oe=5EB1A1B8"
+  },
+  {
+    "id": "Au Vieux Duluth",
+    "Secteur": "Aylmer",
+    "Saison": ["Été", "Hiver", "Printemps", "Automne"],
+    "Categorie": ["Resto"],
+    "Type": [ "Famille", "Amis", "Couple" ],
+    "Majeurlegalement": ["Majeur", "Mineur"],
+    "photo" : "https://b.zmtcdn.com/data/pictures/3/18150113/ca21ffa5254a16ecae036a731982da13.jpg?output-format=webp"
+  },
+  {
+    "id": "Dinty's",
+    "Secteur": "Aylmer",
+    "Saison": ["Été", "Hiver", "Printemps", "Automne"],
+    "Categorie": ["Resto"],
+    "Type": [ "Famille", "Amis", "Couple" ],
+    "Majeurlegalement": ["Majeur", "Mineur"],
+    "photo" : "https://media-cdn.tripadvisor.com/media/photo-s/0e/c5/6a/a6/dintys-restaurant-view.jpg"
+  },
+  {
+    "id": "Casa Grecque",
+    "Secteur": "Aylmer",
+    "Saison": ["Été", "Hiver", "Printemps", "Automne"],
+    "Categorie": ["Resto"],
+    "Type": [ "Famille", "Amis", "Couple" ],
+    "Majeurlegalement": ["Majeur", "Mineur"],
+    "photo" : "https://b.zmtcdn.com/data/pictures/9/16664579/764d480fee381059ba38a1bc6ba0f68a.jpg?output-format=webp"
+  },
+  {
+    "id": "Lac Beauchamp",
+    "Secteur": "Gatineau",
+    "Saison": ["Été", "Hiver", "Printemps", "Automne"],
+    "Categorie": ["Chill"],
+    "Type": [ "Famille", "Amis", "Couple" ],
+    "Majeurlegalement": ["Majeur", "Mineur"],
+    "photo" : "https://vivreagatineau.ca/wp-content/uploads/2018/07/Photo-Lac-Beauchamp.jpg"
+  },
+  {
+    "id": "Sérénithé - Bubble tea",
+    "Secteur": "Aylmer",
+    "Saison": ["Été", "Hiver", "Printemps", "Automne"],
+    "Categorie": ["Chill"],
+    "Type": [ "Famille", "Amis", "Seul", "Couple" ],
+    "Majeurlegalement": ["Majeur", "Mineur"],
+    "photo" : "https://prettymesmerizing.com/wp-content/uploads/2018/08/8EBAE586-17E2-4834-A285-F5E8AEF3B8B1-e1534036255216.jpeg"
+  },
+  {
+    "id": "The Waterfront Gastropub",
+    "Secteur": "Ottawa",
+    "Saison": ["Été", "Hiver", "Printemps", "Automne"],
+    "Categorie": ["Bar", "Resto"],
+    "Type": [ "Famille", "Amis", "Couple" ],
+    "Majeurlegalement": ["Majeur", "Mineur"],
+    "photo" : "https://img1.wsimg.com/isteam/ip/54f665e4-de7e-45a8-991f-ed37bfd896cd/0E16AC82-4732-4703-B7A5-29D8DF92A5FA.jpeg"
+  },
+  {
+    "id": "Nordik Spa-Nature",
+    "Secteur": "Gatineau",
+    "Saison": ["Été", "Hiver", "Printemps", "Automne"],
+    "Categorie": ["Chill"],
+    "Type": ["Couple"],
+    "Majeurlegalement": ["Majeur", "Mineur"],
+    "photo" : "https://www.hotelv.ca/sites/default/files/services/Forfait-Nordik-experience-nordik-hotel-v-gatineau.jpg"
+  },
+  {
+    "id": "Parc de la Gatineau",
+    "Secteur": "Gatineau",
+    "Saison": ["Été", "Hiver", "Printemps", "Automne"],
+    "Categorie": ["Activités_sportives ", "Chill"],
+    "Type": [ "Famille", "Amis", "Seul", "Couple" ],
+    "Majeurlegalement": ["Majeur", "Mineur"],
+    "photo" : "https://images.radio-canada.ca/q_auto,w_1250/v1/ici-info/16x9/parc-gatineau-entree-nord-lac-philippe.jpg"
+  }
+]
